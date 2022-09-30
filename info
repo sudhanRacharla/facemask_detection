@@ -1,0 +1,35 @@
+# about CNN:
+# cnn is more accurate
+# classification is of 3 types
+# binary, multiclass, multilabel
+# activation function
+# for binary classification - Sigmoid Activation
+# for multiclass classification - Softmax Activation
+# for multilabel classification - Sigmoid Activation
+
+# CNN working progress
+# it has 3 layers
+# convolutional layer, pooling layer, fully connected layer
+# machine reads the image through the matrix formation
+# from image matrix, the feature mapping is done using feature detectors
+
+# RELU activation
+# It makes negative results into linear ones
+# eg.. in matrix, one of the value is negative then it is converted to zero(0)
+
+# pooling - 3types
+# max pooling, avg pooling, sum pooling
+# here we are using max pooling
+
+# fully converted layer
+# flatten- make array as a single dimension
+
+# activation function
+# The rectified linear activation function or ReLU for short is a piecewise linear function that will output the input
+# directly if it is positive, otherwise, it will output zero.
+# It has become the default activation function for many types of neural networks because a model that uses it
+# is easier to train and often achieves better performance.
+
+# prediction = model.predict(testdataset)
+# result = prediction[70] #70th image from the dataset
+# print(result)
