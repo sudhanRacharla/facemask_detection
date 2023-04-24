@@ -9,7 +9,7 @@ For image predictions, CNN will be used because it is effective at extracting fe
 
 The model is constructed using the CNN method. The model trainig code is located in the trainig.py file. The trained models are included. The code for testing a model with images is in the file img_predict.py. The final file containing the execution code is called exe.py. We utilise opencv to build a live detection system in which a web camera will collect the input and a model will classify it.
 
-
+info.txt file has the information about the model layers, activation functions.
 ## Deployment
 
 To deploy this project follow the steps:
